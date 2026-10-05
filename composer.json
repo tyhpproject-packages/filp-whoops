@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/filp-whoops",
+    "description": "Tyhp type definitions for filp/whoops 2.18.4.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.18.4",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/filp-whoops-impl": "~2.18.4.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/filp-whoops-impl"
+        }
+    }
+}
